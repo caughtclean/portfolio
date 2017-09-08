@@ -28,7 +28,7 @@ export const ProfileImage = styled.div`
 `
 
 export const RevealP = styled.p`
-  postion: relative;
+  position: relative;
   &:after {
     content: ' ';
     position: absolute;
@@ -37,13 +37,11 @@ export const RevealP = styled.p`
     width: 100%;
     height: 100%;
     background-color: black;
-
     transform-origin: left;
     transform: rotateY(90deg);
     transition: transform 1s;
   }
-
-  ${({ hide }) => hide & css`
+  ${({ hide }) => hide && css`
     &:after {
       transform: rotateY(0deg);
     }
