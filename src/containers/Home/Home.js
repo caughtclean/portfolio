@@ -1,10 +1,8 @@
 import React, { Component, ProtoTypes } from 'react';
-import styled from 'styled-components';
-import Container from '../theme/grid/Container';
+import { Container } from '../../theme/grid';
+import { Image, ProfileImage, RevealP } from './Home.style';
 
-const Image = styled.img`
-  width: 100%
-`
+
 
 export default class Home extends Component {
   static protoTypes = {};
@@ -12,10 +10,13 @@ export default class Home extends Component {
   render() {
     return (
       <Container>
-        <Image src={require('../assets/profile.jpg')} alt="profile-image"/>
-        <p>
+        <ProfileImage>
+          <h1>Nathan Eyerley</h1>
+          <h2>Web Developer</h2>
+        </ProfileImage>
+        <RevealP>
           This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!
-        </p>
+        </RevealP>
       </Container>
     );
   }

@@ -33,6 +33,7 @@
     "react": "^15.6.1",
     "react-dev-utils": "^4.0.1",
     "react-dom": "^15.6.1",
+    "react-hot-loader": "next",
     "react-router": "3.x",
     "style-loader": "0.18.2",
     "styled-components": "^2.1.2",
