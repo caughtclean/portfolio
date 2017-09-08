@@ -20,6 +20,23 @@ export default class Home extends Component {
         <RevealP hide={!isInView}>
           This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!
         </RevealP>
+
+      }
+        </WhenInView>
+         <WhenInView>
+        {({ isInView }) =>
+        <RevealP hide={!isInView}>
+          This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!
+        </RevealP>
+
+      }
+        </WhenInView>
+         <WhenInView>
+        {({ isInView }) =>
+        <RevealP hide={!isInView}>
+          This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!
+        </RevealP>
+
       }
         </WhenInView>
 
