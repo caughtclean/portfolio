@@ -36,7 +36,7 @@ export const RevealP = styled.p`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: white;
     transform-origin: left;
     transform: rotateY(90deg);
     transition: transform 1s;
