@@ -23,7 +23,7 @@ export const ProfileImage = styled.div`
 
   font-size: 2em;
 
-  h1 {
+  h2 {
     margin: 0;
   }
 `

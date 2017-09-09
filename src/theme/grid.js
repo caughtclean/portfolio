@@ -39,6 +39,7 @@ export const Container = styled(Div)`
 
 export const Relative = styled(Div)`
   position: relative;
+  height: 0;
 `
 
 export const Flex = styled(Div)`

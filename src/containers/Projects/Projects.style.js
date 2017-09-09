@@ -23,8 +23,8 @@ export const Index = styled.div`
   h1 {
     margin: 0;
     font-weight: bold;
-    opacity: 0.5;
-    transform: translateY(120%);
+    opacity: 0.4;
+    transform: translateY(-20%);
   }
 
 `
