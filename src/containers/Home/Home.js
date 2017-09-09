@@ -12,8 +12,8 @@ export default class Home extends Component {
     return (
       <Container>
         <ProfileImage>
-          <h1>Nathan Eyerley</h1>
-          <h2>Web Developer</h2>
+          <h2>Nathan Eyerley</h2>
+          <h3>Web Developer</h3>
         </ProfileImage>
         <WhenInView>
         {({ isInView }) =>

@@ -7,11 +7,12 @@ export const Image = styled.img`
 `
 
 export const ProfileImage = styled.div`
-  height: 150vh;
-  background-image: url('${require('../../assets/profile.jpg')}');
+  height: 100vh;
+  background-image: url('${require('../../assets/background.jpg')}');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-top: 50px;
 
   display: flex;
   flex-direction: column;
