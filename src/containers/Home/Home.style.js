@@ -28,6 +28,21 @@ export const ProfileImage = styled.div`
   }
 `
 
+export const Background = styled.div`
+  position: fixed;
+  left: 10vw;
+  width: 80vw;
+  top: 10vh;
+  height: 80vh;
+  background-image: url(${require('../../assets/background1.jpg')});
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -99;
+  opacity: 0.8;
+
+`;
+
 export const RevealP = styled.p`
   position: relative;
   &:after {

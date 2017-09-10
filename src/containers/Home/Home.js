@@ -1,6 +1,6 @@
 import React, { Component, ProtoTypes } from 'react';
 import { Container } from '../../theme/grid';
-import { Image, ProfileImage, RevealP } from './Home.style';
+import { Image, ProfileImage, RevealP, Background } from './Home.style';
 import WhenInView from '../../components/WhenInView/WhenInView';
 
 
@@ -11,6 +11,7 @@ export default class Home extends Component {
   render() {
     return (
       <Container>
+        <Background/>
         <ProfileImage>
           <h2>Nathan Eyerley</h2>
           <h3>Web Developer</h3>

@@ -34,8 +34,8 @@ export const Background = styled.div`
   left: 10vw;
   width: 80vw;
   top: 10vh;
-  height: 80vh;
-  background-image: url(${require('../../assets/background.jpg')});
+  height: 120vh;
+  background-image: url(${require('../../assets/background2.jpg')});
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;

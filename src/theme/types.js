@@ -8,6 +8,15 @@ export const A = styled.a`
   };
 
 `
+
+export const AA = styled.a`
+  color: black;
+  text-decoration: none;
+   &:hover {
+    color: yellow;
+  };
+
+`
 export const Links = styled.h4`
   text-align: center;
 `;

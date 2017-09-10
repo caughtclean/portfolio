@@ -9,6 +9,7 @@ class Projects extends Component {
   render() {
     return (
       <Container>
+        <Background/>
         <NavigationBar/>
         <h1>Projects</h1>
         <Relative>
