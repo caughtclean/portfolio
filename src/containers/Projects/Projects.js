@@ -20,7 +20,7 @@ class Projects extends Component {
           </Index>
         </Relative>
         <h2> UPIK </h2>
-        <p>Provides an easy way to share lists of movies, restaurants and other activities with friends and make decisions together. Front-end built using React, Redux, React DND (drag and drop) and animations in React while synchronizing changes across multiple users. Postsgre for data storage. Knex for migrations and building SQL queries.
+        <p>Provides an easy way to share lists of movies, restaurants and other activities with friends and make decisions together. Front-end built using React, Redux, React DND (drag and drop) and animations in React while synchronizing changes across multiple users. Postsgres for data storage. Knex for migrations and building SQL queries.
           Socket.io for websockets. </p>
         <Flex justify={'center'}>
           <Zoomy
@@ -76,7 +76,7 @@ class Projects extends Component {
           </Index>
         </Relative>
         <h2> butthatswrong.com </h2>
-        <p>A single page React/Redux blog app, that incorprates youtube video blogs with facebook comments attached. Clicking on a new episode will seemlessly load the next video and comments without reloading the page. Also my personal rage blog where I rant about things that drive me nuts. Keep in mind I am mostly kidding...</p>
+        <p>A single page React/Redux blog app, that incorporates youtube video blogs with facebook comments attached. Clicking on a new episode will seamlessly load the next video and comments without reloading the page. Also my personal rage blog where I rant about things that drive me nuts. Keep in mind I am mostly kidding...</p>
         <Flex justify={'center'}>
           <Zoomy
             imageUrl={require('../../assets/wrong.png')}

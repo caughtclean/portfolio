@@ -39,7 +39,7 @@ class AboutMe extends Component {
         <p> I am a simple man. I like video games, technology, beer, skateboarding, comedy, jiu jitsu, magic, video editing, photography, pug dogs and brown haired girls. I also like eating. I have worked quite the gamut of jobs in my life from working at a clothing store, to running a excavator, coaching jiu jitsu to a traveling salesmen. I went to college for computer science and that has always been my main interest and drive. I recently went back to school to learn how to code properly and it is my main obsession. Here are a few side projects/jobs I have worked on over the years.
         </p>
         <h2>Video editing</h2>
-        <h3> I have always enjoy filming all sorts of things, from skateboarding, Jiu Jitsu, to work projects. I have been hired to film and edit small videos for companies and freinds in the past and really enjoy it. I have also put quite a bit of time into dabbling in after effects and have taken a crack at some special effects fun. Here are a few examples:
+        <h3> I have always enjoy filming all sorts of things, from skateboarding, Jiu Jitsu, to work projects. I have been hired to film and edit small videos for companies and friends in the past and really enjoy it. I have also put quite a bit of time into dabbling in after effects and have taken a crack at some special effects fun. Here are a few examples:
         </h3>
         <h2> Powell River Brazilian Jiu Jitsu </h2>
 
@@ -75,7 +75,7 @@ class AboutMe extends Component {
       }
         </WhenInView>
 
-        <h3> I worked at a Fishfarm located at Lois Lake Powell River. Everything from construction, excavator work, genreal tech work, and shot and edited this comerical for them to present to investors. I have many more videos, let me know if you want to see more, or check out my youtube pages.</h3>
+        <h3> I worked at a Fishfarm located at Lois Lake Powell River. Everything from construction, excavator work, general tech work, and shot and edited this commercial for them to present to investors. I have many more videos, let me know if you want to see more, or check out my youtube pages.</h3>
 
       </Container>
     );
