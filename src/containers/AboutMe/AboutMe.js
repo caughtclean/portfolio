@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container } from '../../theme/grid'
-import { Title, Background, RevealP } from './AboutMe.style'
+import { Title, Background, RevealP, About } from './AboutMe.style'
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import YouTube from 'react-youtube';
 import { Flex } from '../../theme/grid';
@@ -35,10 +35,10 @@ class AboutMe extends Component {
         <Social/>
         <Background/>
         <Title>About Me</Title>
-        <h2>What do I like and all those good things</h2>
+        <About>What do I like and all those good things</About>
         <p> I am a simple man. I like video games, technology, beer, skateboarding, comedy, jiu jitsu, magic, video editing, photography, pug dogs and brown haired girls. I also like eating. I have worked quite the gamut of jobs in my life from working at a clothing store, to running a excavator, coaching jiu jitsu to a traveling salesmen. I went to college for computer science and that has always been my main interest and drive. I recently went back to school to learn how to code properly and it is my main obsession. Here are a few side projects/jobs I have worked on over the years.
         </p>
-        <h2>Video editing</h2>
+        <About>Video editing</About>
         <h3> I have always enjoy filming all sorts of things, from skateboarding, Jiu Jitsu, to work projects. I have been hired to film and edit small videos for companies and friends in the past and really enjoy it. I have also put quite a bit of time into dabbling in after effects and have taken a crack at some special effects fun. Here are a few examples:
         </h3>
         <h2> Powell River Brazilian Jiu Jitsu </h2>

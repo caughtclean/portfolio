@@ -1,9 +1,15 @@
 import styled, { css } from 'styled-components';
 
 export const Title = styled.h1`
-  margin-top: 0;
+  margin-top: 20vh;
   color: black;
-  margin-bottom: 100px;
+  margin-bottom: 10vh;
+`;
+
+export const About = styled.h2`
+  margin-top: 10vh;
+  color: black;
+  margin-bottom: 10vh;
 `;
 
 export const Background = styled.div`
