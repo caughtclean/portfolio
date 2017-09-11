@@ -17,7 +17,7 @@ export const Background = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   z-index: -99;
-  opacity: 0.65;
+  opacity: 0.55;
 
 `;
 

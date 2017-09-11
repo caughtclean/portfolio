@@ -33,14 +33,14 @@ export const Background = styled.div`
   position: fixed;
   left: 10vw;
   width: 80vw;
-  top: 25vh;
+  top: 30vh;
   height: 80vh;
   background-image: url(${require('../../assets/background1.jpg')});
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
   z-index: -99;
-  opacity: 0.8;
+  opacity: 0.7;
 
 `;
 
