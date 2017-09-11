@@ -33,10 +33,10 @@ export const Background = styled.div`
   position: fixed;
   left: 10vw;
   width: 80vw;
-  top: 30vh;
-  height: 80vh;
+  top: 20vh;
+  height: 100vh;
   background-image: url(${require('../../assets/background1.jpg')});
-  background-size: 70%;
+  background-size: 75%;
   background-repeat: no-repeat;
   background-position: center;
   z-index: -99;

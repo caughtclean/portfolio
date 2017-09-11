@@ -11,6 +11,7 @@ export const Container = styled(Div)`
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 30px;
+  padding-bottom: 30vh;
 
   ${media.giant`
     padding-left: 120px;
