@@ -23,6 +23,10 @@ class Social extends Component {
         <img
           src={require('../../assets/linkedin.png')}/>
        </AAA>
+       <AAA href="https://www.youtube.com/user/caughtclean">
+        <img
+          src={require('../../assets/youtube.png')}/>
+       </AAA>
        <AAA href="mailto:eyerleyN@gmail.com">
         <img
           src={require('../../assets/email.png')}/>
