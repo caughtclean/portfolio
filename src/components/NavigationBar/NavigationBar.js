@@ -11,7 +11,7 @@ class NavigationBar extends Component {
       <NavigationContainer>
         <NavItem to="/">Home</NavItem>
         <NavItem to="/projects">Projects</NavItem>
-        <NavItem>About Me</NavItem>
+        <NavItem to="/aboutMe">About Me</NavItem>
         <NavItem><AA href="https://www.dropbox.com/s/tijdf9tducwnqlk/Nathan_Eyerley_Resume.pdf?dl=0">Resume</AA></NavItem>
       </NavigationContainer>
     );

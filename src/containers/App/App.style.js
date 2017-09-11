@@ -14,3 +14,4 @@ export const Background = styled.div`
   opacity: 0.65;
 
 `;
+

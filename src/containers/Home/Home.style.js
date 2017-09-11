@@ -13,6 +13,7 @@ export const ProfileImage = styled.div`
   background-size: cover;
   background-position: center;
   margin-top: 50px;
+  margin-bottom: 100px;
 
   display: flex;
   flex-direction: column;
@@ -32,10 +33,10 @@ export const Background = styled.div`
   position: fixed;
   left: 10vw;
   width: 80vw;
-  top: 10vh;
+  top: 25vh;
   height: 80vh;
   background-image: url(${require('../../assets/background1.jpg')});
-  background-size: 100%;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
   z-index: -99;

@@ -4,6 +4,7 @@ import { ImageButton, Index, Background } from './Projects.style';
 import { Container, Relative, Flex, marginBottom } from '../../theme/grid';
 import { A, Links } from '../../theme/types';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
+import Social from '../../components/Social/Social';
 
 class Projects extends Component {
   render() {
@@ -11,6 +12,7 @@ class Projects extends Component {
       <Container>
         <Background/>
         <NavigationBar/>
+        <Social/>
         <h1>Projects</h1>
         <Relative>
           <Index>
@@ -74,7 +76,7 @@ class Projects extends Component {
           </Index>
         </Relative>
         <h2> butthatswrong.com </h2>
-        <p>A single page React/Redux blog app, that incorprates youtube video blogs with facebook comments attached. Clicking on a new episode will seemlessly load the next video and comments without reloading the page.</p>
+        <p>A single page React/Redux blog app, that incorprates youtube video blogs with facebook comments attached. Clicking on a new episode will seemlessly load the next video and comments without reloading the page. Also my personal rage blog where I rant about things that drive me nuts. Keep in mind I am mostly kidding...</p>
         <Flex justify={'center'}>
           <Zoomy
             imageUrl={require('../../assets/wrong.png')}

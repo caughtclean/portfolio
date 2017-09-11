@@ -2,11 +2,31 @@ import styled from 'styled-components';
 import { Flex, Div } from '../../theme/grid';
 import { Link } from 'react-router';
 
+
 export const NavigationContainer = styled(Flex)`
   position: fixed;
   right: 6em;
 
 `;
+
+export const SocialContainer = styled(Flex)`
+  list-style-type: none;
+  margin: 0;
+  top: 25%;
+  left: 0;
+  padding: 0;
+  width: 25%;
+  height: 100%;
+  position: fixed;
+ li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+`;
+
 
 export const NavItem = styled(Link)`
   margin-right: 30px;

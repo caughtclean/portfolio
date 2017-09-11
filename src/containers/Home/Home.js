@@ -2,6 +2,7 @@ import React, { Component, ProtoTypes } from 'react';
 import { Container } from '../../theme/grid';
 import { Image, ProfileImage, RevealP, Background } from './Home.style';
 import WhenInView from '../../components/WhenInView/WhenInView';
+import Social from '../../components/Social/Social';
 
 
 
@@ -11,6 +12,7 @@ export default class Home extends Component {
   render() {
     return (
       <Container>
+        <Social/>
         <Background/>
         <ProfileImage>
           <h2>Nathan Eyerley</h2>
@@ -19,23 +21,20 @@ export default class Home extends Component {
         <WhenInView>
         {({ isInView }) =>
         <RevealP hide={!isInView}>
-          This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!
+          I am a long time technology enthusiast with a passion for problem solving and creating. I have worked in video/photo editing  for years and enjoy all aspects of programming and hardware alike. I recently graduated from the lighthouse labs web development bootcamp, and am eager to get into the field. I enjoy full stakc development but shine mostly in front end liabrary like React/Redux and also enjoy design.
+
+          This is a little portfolio/project page I made to show some of the stuff I have worked on or am currently working on, and some non coding stuff I like to have fun with. Take a look at the project page for some demos, github links and some other non coding projects I have worked on in the about me Page.
+
         </RevealP>
 
       }
         </WhenInView>
-         <WhenInView>
-        {({ isInView }) =>
-        <RevealP hide={!isInView}>
-          This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!
-        </RevealP>
 
-      }
-        </WhenInView>
-         <WhenInView>
+        <WhenInView>
         {({ isInView }) =>
         <RevealP hide={!isInView}>
-          This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!This will describe how awesome I am!
+          This is a little portfolio/project page I made to show some of the stuff I have worked on or am currently working on, and some non coding stuff I like to have fun with. I created this portfolio in React.js and the source is in the projects page if you want to take a look. Credit to https://www.sonchu.co 'FroDev' for his youtube series on creating a cool
+            portfolio like this.
         </RevealP>
 
       }
