@@ -12,7 +12,7 @@ class NavigationBar extends Component {
         <NavItem to="/">Home</NavItem>
         <NavItem to="/projects">Projects</NavItem>
         <NavItem to="/aboutMe">About Me</NavItem>
-        <NavItem><AA href="https://www.dropbox.com/s/tijdf9tducwnqlk/Nathan_Eyerley_Resume.pdf?dl=0">Resume</AA></NavItem>
+        <NavItem><AA target="_blank" href="https://www.dropbox.com/s/tijdf9tducwnqlk/Nathan_Eyerley_Resume.pdf?dl=0">Resume</AA></NavItem>
       </NavigationContainer>
     );
   }
