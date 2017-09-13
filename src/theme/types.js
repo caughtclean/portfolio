@@ -23,8 +23,9 @@ export const Links = styled.h4`
 
 export const AAA = styled.a`
   text-decoration: none;
+  filter: grayscale(100%);
    &:hover {
-    color: yellow;
+    filter: grayscale(0%);
     transform: scale(1.5, 1.5);
     transition: 1s;
   };

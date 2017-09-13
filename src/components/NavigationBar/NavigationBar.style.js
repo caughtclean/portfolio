@@ -44,7 +44,7 @@ export const NavItem = styled(Link)`
       top: 0;
       width: 100%;
       height: 100%;
-      background-color: gray;
+      background-color: white;
       z-index: -1;
 
     }
