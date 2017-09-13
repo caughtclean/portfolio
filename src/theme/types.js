@@ -27,6 +27,6 @@ export const AAA = styled.a`
    &:hover {
     filter: grayscale(0%);
     transform: scale(1.5, 1.5);
-    transition: 1s;
+    transition: .5s;
   };
 `;
