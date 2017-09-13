@@ -41,7 +41,7 @@ class Projects extends Component {
               }}
           />
         </Flex>
-        <Links><A href="http://upik.herokuapp.com/"> Try it!(Log in as "Nathan")</A></Links><Links><A href="https://github.com/efredine/collaborative-lists"> Github</A></Links>
+        <Links><A target="_blank" href="http://upik.herokuapp.com/"> Try it!(Log in as "Nathan")</A></Links><Links><A target="_blank" href="https://github.com/efredine/collaborative-lists"> Github</A></Links>
         <Relative>
           <Index>
           <h1>02</h1>
@@ -68,7 +68,7 @@ class Projects extends Component {
               }}
           />
         </Flex>
-        <Links><A href="https://floating-mesa-16014.herokuapp.com/"> Try it!</A></Links><Links><A href="https://github.com/caughtclean/tweetr"> Github</A></Links>
+        <Links><A target="_blank" href="https://floating-mesa-16014.herokuapp.com/"> Try it!</A></Links><Links><A target="_blank" href="https://github.com/caughtclean/tweetr"> Github</A></Links>
 
         <Relative>
           <Index>
@@ -96,7 +96,7 @@ class Projects extends Component {
               }}
           />
         </Flex>
-        <Links><A href="http://butthatswrong.herokuapp.com/">"butthatswrong.com" </A></Links><Links><A href="https://github.com/caughtclean/but-thats-wrong-blog"> Github</A></Links>
+        <Links><A target="_blank" href="http://butthatswrong.herokuapp.com/">"butthatswrong.com" </A></Links><Links><A target="_blank" href="https://github.com/caughtclean/but-thats-wrong-blog"> Github</A></Links>
 
         <Relative>
           <Index>
@@ -124,7 +124,7 @@ class Projects extends Component {
               }}
           />
         </Flex>
-        <Links><A href="https://github.com/caughtclean/chatty-app"> Github</A></Links>
+        <Links><A target="_blank" href="https://github.com/caughtclean/chatty-app"> Github</A></Links>
 
         <Relative>
           <Index>
@@ -152,7 +152,7 @@ class Projects extends Component {
               }}
           />
         </Flex>
-        <Links><A href="https://github.com/caughtclean/jungle-rails"> Github</A></Links>
+        <Links><A target="_blank" href="https://github.com/caughtclean/jungle-rails"> Github</A></Links>
 
         <Relative>
           <Index>
@@ -180,7 +180,7 @@ class Projects extends Component {
               }}
           />
         </Flex>
-        <Links><A href="https://github.com/caughtclean/portfolio"> Github</A></Links>
+        <Links><A target="_blank" href="https://github.com/caughtclean/portfolio"> Github</A></Links>
       </Container>
     );
   }

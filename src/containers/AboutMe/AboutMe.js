@@ -39,8 +39,8 @@ class AboutMe extends Component {
         <p> I am a simple man. I like video games, technology, beer, skateboarding, comedy, jiu jitsu, magic, video editing, photography, pug dogs and brown haired girls. I also like eating. I have worked quite the gamut of jobs in my life from working at a clothing store, to running a excavator, coaching jiu jitsu to a traveling salesmen. I went to college for computer science and that has always been my main interest and drive. I recently went back to school to learn how to code properly and it is my main obsession. Here are a few side projects/jobs I have worked on over the years.
         </p>
         <About>Video editing</About>
-        <h3> I have always enjoy filming all sorts of things, from skateboarding, Jiu Jitsu, to work projects. I have been hired to film and edit small videos for companies and friends in the past and really enjoy it. I have also put quite a bit of time into dabbling in after effects and have taken a crack at some special effects fun. Here are a few examples:
-        </h3>
+        <p> I have always enjoy filming all sorts of things, from skateboarding, Jiu Jitsu, to work projects. I have been hired to film and edit small videos for companies and friends in the past and really enjoy it. I have also put quite a bit of time into dabbling in after effects and have taken a crack at some special effects fun. Here are a few examples:
+        </p>
         <h2> Powell River Brazilian Jiu Jitsu </h2>
 
          <WhenInView>
@@ -58,7 +58,7 @@ class AboutMe extends Component {
       }
         </WhenInView>
 
-        <h3> I have trained Jiu Jitsu for several years, coached and competed as well. This is a promo video I shot and edited for my home town club. I even have a few moves in there!</h3><br></br>
+        <p> I have trained Jiu Jitsu for several years, coached and competed as well. This is a promo video I shot and edited for my home town club. I even have a few moves in there!</p>
         <h2> Lois Lake Fishfarm </h2>
          <WhenInView>
         {({ isInView }) =>
@@ -75,7 +75,7 @@ class AboutMe extends Component {
       }
         </WhenInView>
 
-        <h3> I worked at a Fishfarm located at Lois Lake Powell River. Everything from construction, excavator work, general tech work, and shot and edited this commercial for them to present to investors. I have many more videos, let me know if you want to see more, or check out my youtube pages.</h3>
+        <p> I worked at a Fishfarm located at Lois Lake Powell River. Everything from construction, excavator work, general tech work, and shot and edited this commercial for them to present to investors. I have many more videos, let me know if you want to see more, or check out my youtube pages.</p>
 
       </Container>
     );

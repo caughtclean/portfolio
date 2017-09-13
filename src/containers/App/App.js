@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Background } from './App.style';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import ReallySmoothScroll from 'really-smooth-scroll';
 import { hashHistory } from 'react-router';

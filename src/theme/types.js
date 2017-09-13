@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const A = styled.a`
-  color: blue;
+  color: black;
   text-decoration: none;
    &:hover {
     color: yellow;
