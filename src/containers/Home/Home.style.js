@@ -39,7 +39,7 @@ export const ProfileImage = styled.div`
     left: 0;
     width: 100vw;
     top: 0;
-    height: 45vh;
+    height: 100vh;
     margin-top: 10vh;
     margin-bottom: 300px;
     `}

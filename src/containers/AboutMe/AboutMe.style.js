@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import media from '../../theme/media';
 
 export const Title = styled.h1`
   margin-top: 20vh;
@@ -13,6 +14,7 @@ export const About = styled.h2`
 `;
 
 export const Background = styled.div`
+
   position: fixed;
   left: 10vw;
   width: 80vw;
@@ -24,6 +26,30 @@ export const Background = styled.div`
   background-position: center;
   z-index: -99;
   opacity: 0.55;
+
+  ${media.tablet`
+    font-size: 1em;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    top: 0;
+    height: 150vh;
+    margin-top: 10vh;
+    margin-bottom: 300px;
+    background-size: 50%;
+    `}
+      ${media.phone`
+    font-size: 1em;
+    left: 0;
+    right:0;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    margin-top: 10vh;
+    margin-bottom: 300px;
+    background-size: 85%;
+    `}
+
 
 `;
 

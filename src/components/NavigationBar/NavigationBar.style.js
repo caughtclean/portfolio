@@ -10,14 +10,17 @@ export const NavigationContainer = styled(Flex)`
 
   ${media.tablet`
     font-size: 18px;
+    left: 0;
     right: 0;
-    left:0;
     justify-content: center;
+    top: 0;
+    left:20px;
     `}
    ${media.phone`
     margin: 0;
-    font-size: 12px;
+    left: 0;
     right: 0;
+    font-size: 12px;
     justify-content: center;
     `}
 
