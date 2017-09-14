@@ -1,11 +1,27 @@
 import styled from 'styled-components';
 import { Flex, Div } from '../../theme/grid';
 import { Link } from 'react-router';
+import media from '../../theme/media';
 
 
 export const NavigationContainer = styled(Flex)`
   position: fixed;
   right: 6em;
+
+  ${media.tablet`
+    font-size: 18px;
+    right: 0;
+    left:0;
+    justify-content: center;
+    `}
+   ${media.phone`
+    margin: 0;
+    font-size: 12px;
+    right: 0;
+    justify-content: center;
+    `}
+
+
 
 `;
 
@@ -18,6 +34,14 @@ export const SocialContainer = styled(Flex)`
   width: 25%;
   height: 100%;
   position: fixed;
+  ${media.tablet`
+    width: 15%;
+
+  `}
+
+  ${media.phone`
+    width: 10%;
+  `}
  li a {
     display: block;
     color: #000;

@@ -34,6 +34,7 @@ export const Container = styled(Div)`
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 15px;
+    font-size: 14px;
   `}
 
 `

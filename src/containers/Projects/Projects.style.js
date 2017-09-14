@@ -1,8 +1,19 @@
 import styled from 'styled-components';
+import media from '../../theme/media';
 
 export const ImageButton = styled.div`
   cursor: pointer;
   overflow: hidden;
+  & > img {
+    ${media.tablet`
+      width: 100vw;
+      height: 60vh;
+      `}
+    ${media.phone`
+       width: 100%;
+       height: 100%;
+      `}
+  }
 
   & > img {
   transition: transform .3s;

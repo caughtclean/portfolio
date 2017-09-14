@@ -6,6 +6,7 @@ import Social from '../../components/Social/Social';
 
 
 
+
 export default class Home extends Component {
   static protoTypes = {};
 
