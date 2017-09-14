@@ -5,11 +5,11 @@ import media from '../../theme/media';
 
 
 export const NavigationContainer = styled(Flex)`
-  position: fixed;
+  position: absolute;
   right: 6em;
 
   ${media.tablet`
-    font-size: 18px;
+    font-size: 16px;
     left: 0;
     right: 0;
     justify-content: center;
@@ -37,20 +37,32 @@ export const SocialContainer = styled(Flex)`
   width: 25%;
   height: 100%;
   position: fixed;
-  ${media.tablet`
-    width: 15%;
-
-  `}
 
   ${media.phone`
-    width: 10%;
+    display: none;
   `}
+
+   ${media.tablet`
+    display: none;
+  `}
+
+
  li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
+
+`;
+
+export const SocialMobContainer = styled(Flex)`
+  position: static;
+  bottom: 10%;
+  left: 25%;
+  justify-content: center;
+
+
 
 `;
 
@@ -71,7 +83,6 @@ export const NavItem = styled(Link)`
       top: 0;
       width: 100%;
       height: 100%;
-      background-color: white;
       z-index: -1;
 
     }

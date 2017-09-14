@@ -13,6 +13,8 @@ export const Container = styled(Div)`
   padding-top: 30px;
   padding-bottom: 30vh;
 
+
+
   ${media.giant`
     padding-left: 120px;
     padding-right: 120px;
@@ -28,6 +30,7 @@ export const Container = styled(Div)`
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 15px;
+    font-size: 14px;
   `}
 
   ${media.phone`

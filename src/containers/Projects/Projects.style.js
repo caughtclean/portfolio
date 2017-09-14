@@ -53,4 +53,6 @@ export const Background = styled.div`
   z-index: -99;
   opacity: 0.65;
 
+
+
 `;

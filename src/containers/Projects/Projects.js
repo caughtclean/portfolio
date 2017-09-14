@@ -5,6 +5,7 @@ import { Container, Relative, Flex, marginBottom } from '../../theme/grid';
 import { A, Links } from '../../theme/types';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import Social from '../../components/Social/Social';
+import SocialMob from '../../components/Social/SocialMob';
 
 class Projects extends Component {
   render() {
@@ -181,6 +182,7 @@ class Projects extends Component {
           />
         </Flex>
         <Links><A target="_blank" href="https://github.com/caughtclean/portfolio"> Github</A></Links>
+        <SocialMob/>
       </Container>
     );
   }

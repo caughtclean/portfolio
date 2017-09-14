@@ -36,7 +36,7 @@ export const Background = styled.div`
     height: 150vh;
     margin-top: 10vh;
     margin-bottom: 300px;
-    background-size: 50%;
+    background-size: 100%;
     `}
       ${media.phone`
     font-size: 1em;
@@ -47,7 +47,7 @@ export const Background = styled.div`
     height: 100vh;
     margin-top: 10vh;
     margin-bottom: 300px;
-    background-size: 85%;
+    background-size: 100%;
     `}
 
 
