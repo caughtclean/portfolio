@@ -6,6 +6,8 @@ import { A, Links } from '../../theme/types';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import Social from '../../components/Social/Social';
 import SocialMob from '../../components/Social/SocialMob';
+import { NavItemBottom } from '../../components/NavigationBar/NavigationBar.style';
+import { NavLeft, NavRight } from '../../containers/Home/Home.style';
 
 class Projects extends Component {
   render() {
@@ -182,6 +184,16 @@ class Projects extends Component {
           />
         </Flex>
         <Links><A target="_blank" href="https://github.com/caughtclean/portfolio"> Github</A></Links>
+        <NavItemBottom to="/#">
+          <NavLeft>
+            <h1>Home</h1>
+          </NavLeft>
+        </NavItemBottom>
+        <NavItemBottom to="/aboutMe">
+          <NavRight>
+            <h1>About Me</h1>
+          </NavRight>
+        </NavItemBottom>
         <SocialMob/>
       </Container>
     );

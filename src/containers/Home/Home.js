@@ -1,9 +1,10 @@
 import React, { Component, ProtoTypes } from 'react';
-import { Container } from '../../theme/grid';
-import { Image, ProfileImage, RevealP, Background } from './Home.style';
+import { Container, Relative } from '../../theme/grid';
+import { Image, ProfileImage, RevealP, Background, NavRight, Img } from './Home.style';
 import WhenInView from '../../components/WhenInView/WhenInView';
 import Social from '../../components/Social/Social';
 import SocialMob from '../../components/Social/SocialMob';
+import { NavItemBottom } from '../../components/NavigationBar/NavigationBar.style';
 
 
 
@@ -49,6 +50,11 @@ export default class Home extends Component {
 
       }
         </WhenInView>
+        <NavItemBottom to="/projects">
+          <NavRight>
+            <h1>Projects</h1>
+          </NavRight>
+        </NavItemBottom>
         <SocialMob/>
       </Container>
     );

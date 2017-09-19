@@ -20,6 +20,7 @@ export const AA = styled.a`
 `
 export const Links = styled.h4`
   text-align: center;
+
 `;
 
 export const AAA = styled.a`
@@ -31,6 +32,7 @@ export const AAA = styled.a`
     filter: grayscale(0%);
     display: flex;
     padding: 5px;
+    margin-top: 50px;
   `}
 
   ${media.phone`

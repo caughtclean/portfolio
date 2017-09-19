@@ -7,6 +7,8 @@ import { Flex } from '../../theme/grid';
 import WhenInView from '../../components/WhenInView/WhenInView';
 import Social from '../../components/Social/Social';
 import SocialMob from '../../components/Social/SocialMob';
+import { NavItemBottom } from '../../components/NavigationBar/NavigationBar.style';
+import { NavLeft, NavRight } from '../../containers/Home/Home.style';
 
 
 const Video = {
@@ -77,6 +79,12 @@ class AboutMe extends Component {
         </WhenInView>
 
         <p> I worked at a Fishfarm located at Lois Lake Powell River. Everything from construction, excavator work, general tech work, and shot and edited this commercial for them to present to investors. I have many more videos, let me know if you want to see more, or check out my youtube pages.</p>
+
+         <NavItemBottom to="/projects">
+          <NavLeft>
+            <h1>Projects</h1>
+          </NavLeft>
+        </NavItemBottom>
 
         <SocialMob/>
 

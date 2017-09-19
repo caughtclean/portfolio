@@ -7,6 +7,78 @@ export const Image = styled.img`
   width: 100%
 `
 
+export const Img = styled.img`
+  height: 25%;
+  width: 25%;
+  float: right;
+  bottom: 0;
+  right: -20vh;
+`;
+
+export const NavRight = styled.div`
+  position: relative;
+  float: right;
+  bottom: 0;
+  font-size: 2.5em;
+  z-index: 1;
+  &:hover {
+   cursor: pointer;
+   background-image: url('${require('../../assets/arrowright.png')}');
+   background-repeat:no-repeat;
+   background-position:bottom;
+   background-size: 60%;
+   h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1em;
+    opacity: 1;
+    transform: translateY(-20%);
+
+  }
+}
+  h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1em;
+    opacity: .4;
+    transform: translateY(-20%);
+  }
+
+
+`
+
+export const NavLeft = styled.div`
+  position: relative;
+  float: left;
+  bottom: 0;
+  font-size: 2.5em;
+  z-index: 1;
+  &:hover {
+   cursor: pointer;
+   background-image: url('${require('../../assets/arrowleft.png')}');
+   background-repeat:no-repeat;
+   background-position:bottom;
+   background-size: 60%;
+   h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1em;
+    opacity: 1;
+    transform: translateY(-20%);
+
+  }
+}
+  h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1em;
+    opacity: .4;
+    transform: translateY(-20%);
+  }
+
+
+`
+
 export const ProfileImage = styled.div`
   height: 100vh;
   background-image: url('${require('../../assets/background.jpg')}');
